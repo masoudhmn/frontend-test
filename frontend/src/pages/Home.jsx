@@ -1,9 +1,11 @@
 import React from 'react'
-import RandomChart from '../components/RandomCahrt'
+import Charts from '../components/Charts'
 
 function Home() {
   return (
-    <RandomChart />
+    <div>
+        <Charts />
+    </div>
   )
 }
 
